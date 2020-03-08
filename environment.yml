@@ -1,0 +1,21 @@
+name: news
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.6
+    - numpy
+    - scipy
+    - matplotlib
+    - pandas
+    - nb_conda
+    - jupyter
+    - scikit-learn
+    - plotly
+    - ipywidgets
+    - requests
+    - tqdm
+    - keras
+    - pip:
+        - textstat
+        - beautifulsoup4
